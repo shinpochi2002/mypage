@@ -8,6 +8,8 @@ window.addEventListener('scroll', () => {
   });
 });
 
+window.dispatchEvent(new Event('scroll'));
+
 // PDFモーダル表示
 function openPDF() {
   document.getElementById('pdfModal').style.display = 'block';
